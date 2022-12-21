@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul,ol,menu {
+	list-style: none;
+    display: flex;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+.row {
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center;
+}
+
+li {
+    padding: 10px 20px;
+
+}
+
+.login{
+    background-color: rgb(4, 180, 239);
+    margin-right: 10px;
+}
