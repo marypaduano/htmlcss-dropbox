@@ -60,6 +60,7 @@ li {
     max-width: 700px;
     margin: 0 auto;
     padding-top: 100px;
+    padding-bottom: 20px;
 }
 h1{
     font-weight: 800;
@@ -92,4 +93,24 @@ h1{
     display: block;
     font-size: 40px;
     padding-top: 50px;
+}
+
+.main-container{
+    max-width: 500px ;
+    margin: 0 auto;
+}
+.col-1{
+    padding-top: 100px;
+}
+.col-2{
+    padding-top: 30px;
+    font-size: 13px;
+}
+
+.select{
+    padding-right: 25px;
+}
+
+.row-content{
+  
 }
