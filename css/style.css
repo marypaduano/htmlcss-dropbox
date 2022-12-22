@@ -6,7 +6,7 @@
 
 html {
 	font-family: 'Open Sans', sans-serif;
-    height: 100vh;
+    width: 100vw;
 }
 
 img {
@@ -16,6 +16,7 @@ img {
 ul,ol,menu {
 	list-style: none;
     display: flex;
+    align-items: center;
 }
 
 a {
@@ -26,17 +27,22 @@ a {
 .row {
     display: flex;  
     justify-content: space-between; 
-    align-items: center;
+    
 }
 
-li {
+.main-header{
+    
+    white-space: nowrap;
+}
+
+
+.menu_item {
     padding: 10px 20px;
 
 }
 
 .blubutton{
     background-color: rgb(4, 180, 239);
-    margin-right: 10px;
     padding: 10px;
     color: white;
 }
@@ -50,14 +56,13 @@ li {
 }
 
 .imghero{
- height: 300px;
- width: 800px;    
+ 
 }
 
 
 
 .container-hero{
-    max-width: 750px;
+    max-width: 700px;
     margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 20px;
@@ -68,21 +73,25 @@ h1{
     padding-bottom: 40px;
 }
 
-.col-4{
-    flex-basis: 40%;
-    padding-right: 20px; 
+h3,h5{
+    margin-bottom: 20px;
+}
+
+.col-3{
+    flex-basis: 30%;  
   
     
 }
-.col-6{
-    flex-basis: 60%;
-    position: relative;
+.col-7{
+    flex-basis: 70%;
+    
 
     
 }
 .descript{
     padding-bottom: 40px;
-    line-height: 18px;
+    line-height: 16px;
+    font-size: 15px;
 }
 
 .login{
@@ -115,22 +124,83 @@ h1{
 .row-content{
     display: flex; 
     flex-wrap: wrap;
-    justify-content: center;
     
+    margin: 0 -15px;
     
-    
-     
 }
+
 .col-4{
     flex-basis: calc(100% * (4 / 12));
-    align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.663);
-    text-align: center;
-    padding: 5px;
+    padding: 15px;
+    
 }
-.col-12{
-    border: 1px solid rgba(0, 0, 0, 0.663);
+
+i {   
+        font-size: 10px;
+        margin-top: auto;    
+}
+
+.col-12{    
+    justify-content: space-between;
+    padding: 15px;
     flex-basis: 100%;
-    padding: 5px;
+
    
 }
+.card-12{
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.663);
+    
+}
+
+.titolo{
+    border: 1px solid rgba(0, 0, 0, 0.663);
+    text-align: center;
+    padding: 10px;
+}
+
+.piano{
+    border: 1px solid rgba(0, 0, 0, 0.663);
+    padding: 10px 20px;    
+
+}
+
+
+.prova30gg{
+    margin-bottom: 15px;
+
+}
+
+.include{
+    margin-top: 20px;
+    gap: 20px;
+    font-size: 13px;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.line{
+    border: 1px solid grey;
+    max-width: 40px;  
+    flex-direction: column;  
+}
+
+.list-services{
+    padding-top: 20px;
+    
+}
+
+.check{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 13px;
+
+}
+
+.fa-check{
+    color: blue;
+}
+
+
