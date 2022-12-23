@@ -115,7 +115,7 @@ h3,h5{
     padding-right: 25px;
 }
 
-.row-content{
+.row{
     display: flex; 
     flex-wrap: wrap;
     margin: 0 -15px;
@@ -137,6 +137,7 @@ i {
     justify-content: space-between;
     padding: 15px;
     flex-basis: 100%;
+    margin-bottom: 50px;
 
    
 }
@@ -146,7 +147,14 @@ i {
     display: flex;
     justify-content: space-between;
 }
-
+.col-60{
+    flex-basis: 60%;
+    padding: 15px;
+}
+.col-40{
+    flex-basis: 40%;
+    padding: 15px;
+}
 .titolo{
     border: 1px solid rgba(0, 0, 0, 0.663);
     text-align: center;
