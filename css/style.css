@@ -68,9 +68,10 @@ h1{
     padding-bottom: 40px;
 }
 
-h3,h5{
+h3,h5, h4{
     margin-bottom: 20px;
 }
+
 
 .col-3{
     flex-basis: 30%;  
@@ -85,8 +86,8 @@ h3,h5{
 }
 .descript{
     padding-bottom: 40px;
-    line-height: 16px;
-    font-size: 15px;
+    line-height: 15px;
+    font-size: 13px;
 }
 
 .login{
@@ -200,4 +201,19 @@ i {
 
 .contact{
     align-self: center;
+}
+
+.more{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+.shop{
+    font-size: 12px;
+}
+
+.section-title{
+    padding: 0 150px 0 0;
 }
