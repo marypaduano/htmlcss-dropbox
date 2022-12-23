@@ -19,7 +19,7 @@ ul,ol,menu {
     align-items: center;
 }
 
-a {
+a:not(.shop) {
 	text-decoration: none;
 	color: currentColor;
 }
@@ -54,11 +54,6 @@ a {
     display: flex;  
    
 }
-
-.imghero{
- 
-}
-
 
 
 .container-hero{
@@ -148,7 +143,8 @@ i {
 .card-12{
     padding: 10px 15px;
     border: 1px solid rgba(0, 0, 0, 0.663);
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 .titolo{
@@ -160,12 +156,6 @@ i {
 .piano{
     border: 1px solid rgba(0, 0, 0, 0.663);
     padding: 10px ;    
-
-}
-
-
-.prova30gg{
-    margin-bottom: 15px;
 
 }
 
@@ -200,4 +190,6 @@ i {
     color: blue;
 }
 
-
+.contact{
+    align-self: center;
+}
