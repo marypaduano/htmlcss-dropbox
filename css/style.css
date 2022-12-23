@@ -120,8 +120,25 @@ h3,h5, h4{
 .row{
     display: flex; 
     flex-wrap: wrap;
-    margin: 0 -15px;
+    margin: 0 -15px;    
+}
+
+.container-full-width{
+    max-width: 100%;
+    display: flex;
+}
+
+.row-full{
+    flex-basis: calc( 100% / 3 );
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.col-2-img{
+    flex-basis: calc( 100% / 2 );
     
+      
 }
 
 .col-4{
@@ -130,9 +147,10 @@ h3,h5, h4{
     
 }
 
-i {   
-        font-size: 10px;
-        margin-top: auto;    
+li {
+	font-size: 12px;
+	display: flex;
+	gap: 8px;
 }
 
 .col-12{      
@@ -208,12 +226,20 @@ i {
     flex-direction: column;
     justify-content: space-between;
     gap: 40px;
-
 }
+
 .shop{
     font-size: 12px;
 }
 
 .section-title{
     padding: 0 150px 0 0;
+}
+
+.logos{
+    max-width: ;
+}
+
+.bg{
+    background-color: rgb(213, 213, 213);
 }
