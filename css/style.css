@@ -11,6 +11,7 @@ html {
 
 img {
 	max-width: 100%;
+    display: block;
     }
 
 ul,ol,menu {
@@ -24,15 +25,19 @@ a:not(.shop) {
 	color: currentColor;
 }
 
+.row-header{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+
+}
+
 .row {
     display: flex;  
     justify-content: space-between; 
     
-}
-
-.main-header{
-    
-    white-space: nowrap;
 }
 
 
@@ -166,6 +171,7 @@ li {
     padding: 15px;
     flex-basis: 100%;
     margin-bottom: 50px;
+    display: flex;
 
    
 }
@@ -245,14 +251,11 @@ li {
     padding: 0 150px 0 0;
 }
 
-.container-full-width{
-    display: flex;
-    justify-content: space-between;
-    flex-grow: 1;
-}
 
 .row-full{
-    display: flex;  
+    display: flex; 
+    justify-content: space-between;
+    flex-grow: 1; 
 }
 
 .row-full-bg{
@@ -313,5 +316,22 @@ li {
 .clearchannel{
     background-color: rgb(255, 216, 48);
 }
+
+.bordeaux{
+    color: rgb(97, 8, 43);
+}
+
+
+.questions {
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+
+
+
+
+
+
 
 
