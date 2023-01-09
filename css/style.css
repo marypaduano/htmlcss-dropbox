@@ -265,11 +265,15 @@ li {
 .col-2-img{
     color: white;
     display: flex;
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-
 .logos{
-   padding: 50px;
+    padding: 30px;
+    filter: invert(1);
 }
 
 .designitlogo{
